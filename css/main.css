@@ -3,6 +3,7 @@
 // ==================================== */
 
 :root {
+  stroke:none;
 }
 
 /* ====================================
@@ -16,16 +17,22 @@
 }
 
 html {
+  display: block;
   font-size: 16px;
+  background: #ddd;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
+  max-width: 320px;
+  margin: auto;
+  background: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
+  text-align: center;
 }
 
 a {
@@ -37,8 +44,63 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  display: block;
+  max-width: 100%;
 }
 
+header {
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+}
+
+.top-infos {
+  padding: 15px 40px 15px 40px;
+}
+
+.recipes-title {
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #fff;
+  background: red;
+  border-radius: 50px;
+  margin: 15px;
+}
+
+h1 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 10px;
+}
+
+.introduction {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.week-cook {
+  background: hsl(88, 27%, 90%);
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: left;
+  padding: 25px 15px 25px 15px ;
+}
+
+.lastest-info {
+  display: flex;
+  flex-direction: column;
+}
 /* ====================================
 // base rules
 // ==================================== */
