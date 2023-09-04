@@ -63,31 +63,59 @@ nav {
   padding: 15px 40px 15px 40px;
 }
 
-.recipes-title {
-  font-weight: 700;
-  font-size: 11px;
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px 30px 10px;
+}
+
+.recipes-title,
+.name-recipes {
+  font-family: 'Libre Franklin';
   text-transform: uppercase;
+  font-weight: 700;
+}
+
+.recipes-title {
+  font-size: 11px;
   color: #fff;
   background: red;
   border-radius: 50px;
-  margin: 15px;
+  padding: 0 10px 0 10px;
+}
+
+.week-cook {
+  padding: 20px 15px 20px 15px;
+  background: hsl(88, 27%, 90%);
 }
 
 h1 {
-  font-family: 'Sorts Mill Goudy', serif;
   font-size: 24px;
   line-height: 1.2;
   margin: 10px;
 }
 
+h1,
+h2,
 .introduction {
-  font-family: 'Sorts Mill Goudy', serif;
-  font-size: 16px;
-  line-height: 1.2;
+  font-family: 'Sorts Mill Goudy';
 }
 
-.week-cook {
-  background: hsl(88, 27%, 90%);
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.container-recipes {
+  margin-bottom: 20px;
+}
+
+.recipes {
+  background: #fff;
+  padding: 10px;
 }
 
 footer {
